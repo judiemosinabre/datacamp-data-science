@@ -1,0 +1,11 @@
+# Import numpy as np
+import numpy as np
+
+# For loop over np_height (1D array)
+for height in np_height:
+    print(f"{height} inches")
+
+
+# For loop over np_baseball (2D array)
+for baseball in np.nditer(np_baseball):
+    print(baseball)
